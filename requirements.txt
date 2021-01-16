@@ -8,5 +8,3 @@ pyramid-jinja2==2.8
 pyramid-mako==1.1.0
 requests==2.25.1
 requests-unixsocket==0.1.5
-system-service==0.3
-systemd-python==234
