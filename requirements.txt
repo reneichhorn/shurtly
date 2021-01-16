@@ -19,7 +19,6 @@ pyramid==1.10.5
 pyramid-debugtoolbar==4.9
 pyramid-jinja2==2.8
 pyramid-mako==1.1.0
-python-apt==1.9.0+ubuntu1
 python-dateutil==2.8.1
 python-slugify==4.0.1
 python-xlib==0.23
