@@ -1,0 +1,10 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+<h1>{{page_title}}</h1>
+<form method="POST"
+      action="{{request.current_route_url()}}">
+    <input type="text" name="longURL" id="form1" class="form-control-lg" placeholder="Your long URL goes here.." />
+    <button type="submit" action="form.edit" class="btn btn-secondary">Shorten it!</button>
+</form>
+{% endblock content %}
